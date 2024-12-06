@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit_Card</title>
+    
+</head>
+
+<body>
+    <div class="credit_card">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h2>Master card</h2>
+            </div>
+            <div>
+                <img src="chip.png" alt="">
+
+            </div>
+        </header>
+        <div class="number_details">
+            <p>Card Number</p>
+            <h2 class="num">8888 8888 0000 9999</h2>
+
+
+            <div class="name">
+                <p>Rahul Kumar Singh</p>
+            </div>
+            <div class="expiry">
+                <p>valid Thru</p>
+                <h3>05/28</h3>
+
+            </div>
+
+        </div>
+    </div>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.credit_card{
+    border: 2px solid black;
+    height: 200px;
+    width:350px;
+   
+    padding: 15px;
+    border-radius: 30px; 
+    background-color: black;
+    box-shadow: 0px 20px 30PX black;
+position: relative;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.credit_card .logo h2{
+    font-size: 20px;
+    padding-top: 8px;
+    padding-left: 8px;
+    color: white;
+    font-variant-caps: all-petite-caps;
+
+}
+.expiry{
+   position: absolute;
+   left: 75%;
+   bottom: 20px;
+
+}
+.name{
+    padding-top: 25px;
+    color: white;
+}
+img{
+width: 60px;
+}
+.logo{
+    display: flex;
+}
+p{
+    color: aliceblue;
+}
+h3{
+    color: white;
+    font-size: 15px;
+}
+.number_details{
+    margin-top: 35px;
+    color: white;
+}
+.number_details h2{
+    font-weight: 100;
+    font-size: 23px;
+    padding-top: 10px;
+}
+.credit_card .name p{
+font-size:18px ;
+}
+</style>
+
+
+</body>
+
+</html>
